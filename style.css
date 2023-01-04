@@ -8,6 +8,14 @@
 .text-primary{
     color: #FD6E0A;
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #fff;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
 /* Nav Style */
 .nav-title{
     font-size: 45px;

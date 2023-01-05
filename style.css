@@ -14,7 +14,7 @@
     padding: 18px 35px;
     border: none;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
 }
 /* Nav Style */
 .nav-title{
@@ -37,5 +37,5 @@ nav li{
 nav a{
     text-decoration: none;
     color: #000;
-    font-size: 20px;
+    font-size: 18px;
 }

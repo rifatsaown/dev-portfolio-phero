@@ -8,3 +8,15 @@ const makeCall = () => {
 const sendMail = () => {
     window.open('mailto:"rifatsaown0@gmail.com"');
 }
+const initialState = {}
+
+export default (state = initialState, { type, payload }) => {
+  switch (type) {
+
+  case rifatsaown0:
+    return { ...state, ...payload }
+
+  default:
+    return state
+  }
+}

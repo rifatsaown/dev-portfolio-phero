@@ -1,9 +1,12 @@
+*{
+      margin: 0;
+      padding: 0;
+} 
 body {
   font-family: "Work Sans", sans-serif;
   box-sizing: border-box;
 }
-ul,
-ol {
+ul{
   list-style: none;
 }
 
@@ -12,26 +15,11 @@ a {
   display: inline-block;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-p,
-a,
-div {
-  margin: 0;
-  padding: 0;
-}
-
 /* ======== common css end ======== */
 
 .menu_part {
   padding: 10px 40px;
-  background: #ffffff;
+ 
 }
 
 .main_menu {
@@ -317,12 +305,12 @@ footer {
   margin-bottom: 16px;
 }
 
-.footer_social {
+.footer_logos {
   display: flex;
   column-gap: 16px;
 }
 
-.footer_social i {
+.footer_logos i {
   width: 47px;
   height: 47px;
   line-height: 47px;
@@ -332,15 +320,15 @@ footer {
   font-size: 24px;
 }
 
-.footer_social .fb {
+.footer_logos .fb {
   color: #006aff;
 }
 
-.footer_social .twit {
+.footer_logos .twit {
   color: #006aff;
 }
 
-.footer_social .ytb {
+.footer_logos .ytb {
   color: #ff0000;
 }
 
@@ -382,5 +370,4 @@ footer {
   border: 0;
   cursor: pointer;
 }
-
 /* =============== footer part end ============ */

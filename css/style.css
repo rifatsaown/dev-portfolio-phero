@@ -1,0 +1,386 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+a,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* ======== common css end ======== */
+
+.menu_part {
+  padding: 10px 40px;
+  background: #ffffff;
+}
+
+.main_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_menu .logo {
+  font-family: "Zen Tokyo Zoo", cursive;
+  color: #00519b;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.main_menu ul {
+  display: flex;
+}
+
+.main_menu ul li a {
+  padding: 5px 15px;
+  color: #00519b;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-left: 25px;
+}
+
+/* =============== menu part end ============ */
+.content_area {
+  max-width: 1072px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: url("../images/banner/banner3.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+}
+
+.banner_inner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner_text {
+  width: 525px;
+  text-align: right;
+}
+
+.banner_text h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.banner_text p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0;
+}
+
+.btn_primary {
+  padding: 18px 30px;
+  background: #fff;
+  border-radius: 5px;
+  border: 0;
+  color: #005fac;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* =============== banner part end ============ */
+
+.previous_year {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.previous_year_photo {
+  width: 569px;
+}
+
+.previous_year_photo img {
+  width: 569px;
+  height: 750px;
+  border-radius: 5px;
+}
+
+.previous_year_text {
+  width: 416px;
+}
+
+.previous_year_text h2 {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.previous_year_text p {
+  color: #444343;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.previous_year_list {
+  color: #444343;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.previous_year_list i {
+  color: #16d887;
+  font-size: 22px;
+}
+
+/* =============== previous year part end ============ */
+.my_plan {
+  margin-top: 120px;
+}
+
+.title {
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.plan_category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.category {
+  width: 218px;
+  text-align: center;
+}
+
+.category h4 {
+  color: #151414;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.category h6 {
+  color: #737272;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* =============== my plan part end ============ */
+.positive_mind {
+  margin-top: 120px;
+  padding: 65px 64px;
+  background: linear-gradient(to right, #005fac, #005fac00),
+    url("../images/watch.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.positive_mind h2 {
+  width: 459px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* =============== positive mind part end ============ */
+.contact_part {
+  margin-top: 120px;
+  padding: 30px 0 0;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.contact_text {
+  text-align: center;
+}
+
+.contact_form {
+  display: inline-block;
+  text-align: center;
+}
+
+.contact_form input {
+  display: block;
+  width: 555px;
+  height: 55px;
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.contact_form .message {
+  width: 555px;
+  height: 155px;
+  padding-top: 0;
+}
+
+.contact_form .send_btn {
+  width: 100%;
+  padding: 10px 40px;
+  text-align: center;
+  border: 0;
+  background: linear-gradient(to right, #0060aa, #01a1db);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* =============== contact part end ============ */
+footer {
+  margin-top: 100px;
+  padding: 130px 0;
+  background: #151414;
+}
+
+.footer_inner {
+  display: flex;
+}
+
+.footer_text .logo {
+  font-family: "Zen Tokyo Zoo", cursive;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  width: 485px;
+}
+
+.footer_des {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 139%;
+}
+
+.footer_email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.footer_phone {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.footer_social {
+  display: flex;
+  column-gap: 16px;
+}
+
+.footer_social i {
+  width: 47px;
+  height: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.footer_social .fb {
+  color: #006aff;
+}
+
+.footer_social .twit {
+  color: #006aff;
+}
+
+.footer_social .ytb {
+  color: #ff0000;
+}
+
+.footer_subscribe {
+  width: 325px;
+}
+
+.subscribe_title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.subscribe_form input {
+  padding: 18px;
+  width: 100%;
+  border-radius: 8px;
+  background: transparent;
+  border: 1px solid white;
+  margin-bottom: 16px;
+}
+
+.subscribe_form ::placeholder {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subscribe_form .submit_btn {
+  width: 170px;
+  padding: 20px 36px;
+  background: #005fac;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  border: 0;
+  cursor: pointer;
+}
+
+/* =============== footer part end ============ */
